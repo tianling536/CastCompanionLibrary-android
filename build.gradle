@@ -74,3 +74,8 @@ dependencies {
     compile "com.android.support:mediarouter-v7:${supportLibVersion}"
     compile 'com.google.android.gms:play-services-cast:9.8.0'
 }
+
+
+// Script from https://github.com/blundell/release-android-library
+// execute: ./gradlew clean build generateRelease
+apply from: 'https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-jar.gradle'
