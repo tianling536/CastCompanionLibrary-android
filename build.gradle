@@ -36,7 +36,11 @@ ext {
     supportLibVersion = '25.0.0'
     versionName = '2.9.1'
 }
-
+ext {
+    PUBLISH_GROUP_ID = 'uk.co.alt236'
+    PUBLISH_ARTIFACT_ID = 'bluetooth-le-library-android'
+    PUBLISH_VERSION = "${semanticVersion}"
+}
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
